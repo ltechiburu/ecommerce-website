@@ -1,0 +1,39 @@
+.main-content {
+  padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-showcase {
+  display: flex;
+  gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+    box-sizing: border-box;
+  overflow: hidden; /* Ensure the content does not overflow */
+    background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product-card h3 {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+}
+
+.product-image {
+  max-width: 100%; /* Ensure the image width does not exceed the container */
+  max-height: 200px; /* Set a maximum height for the images */
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  display: block;
+  margin: 0 auto;
+}

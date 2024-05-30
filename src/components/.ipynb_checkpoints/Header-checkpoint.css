@@ -1,0 +1,28 @@
+/* src/components/Header.css */
+.header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-family: var(--font-primary);
+}
+
+.header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header .nav-links a {
+  color: white;
+  font-family: var(--font-secondary);
+}

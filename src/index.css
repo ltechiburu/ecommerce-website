@@ -1,0 +1,50 @@
+/* src/index.css */
+
+:root {
+  --primary-color: #ff6f61; /* Vibrant coral color */
+  --secondary-color: #4a4a4a; /* Dark gray for text */
+  --background-color: #f4f4f9; /* Light background color */
+  --accent-color: #ffd700; /* Gold accent color */
+  --font-primary: 'Lora', serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-secondary);
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
